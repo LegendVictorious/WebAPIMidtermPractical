@@ -66,6 +66,7 @@ app.use(logger("dev"));
   Step 6 
   Set your view engine to ejs.
 */
+app.set('views', path.resolve(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 /*
