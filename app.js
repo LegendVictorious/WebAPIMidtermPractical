@@ -73,7 +73,7 @@ app.set('view engine', 'ejs');
   Step 7 
   Use a get to render the index page
 */
-app.get("/index", function (request, response){
+app.get("/", function (request, response){
     response.render("index");
 });
 
